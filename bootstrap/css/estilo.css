@@ -1,0 +1,91 @@
+/*===================LAYOUT=========================*/
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    display: block;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #F5F5F5!important;
+}
+
+nav.navbar-dark {
+    padding: 15px 40px;
+}
+
+nav.navbar-dark.bg-dark {
+    background-color: #000!important;
+}
+
+nav {
+    margin: 0px 0px 100px 0px;
+    display: block;
+}
+
+.formatada {
+    width: 265px;
+    height: 265px;
+    border-radius: 150px;
+    margin: 100px 0px 20px 0px;
+}
+
+footer {
+    position: relative;
+}
+
+.rodape {
+    padding: 45px 10px 25px;
+    background-color: #000!important;
+    color: #F5F5F5;
+    width: 100%;
+}
+
+section {
+    padding: 200px 0px;
+    border: none;
+    background-color: rgb(152, 199, 228);
+    display: block;
+}
+
+header {
+    padding: 35px 0px 15px 0px;
+}
+
+a {
+    margin: 0px 15px 0px 15px;
+}
+
+.item-rede-social {
+    float: inline-end;
+}
+
+.bg-site {
+    background-color: #F5F5F5!important;
+}
+
+.minha-lista>li {
+    padding: 5px 0px;
+    list-style-type: none;
+}
+
+
+/*==================TIPOGRAFIA=======================*/
+
+h1 {
+    font-family: 'Calistoga', cursive;
+    color: #000;
+}
+
+.conteudo-texto {
+    text-align: justify;
+    text-indent: 1em;
+    margin: 0px 0px;
+}
+
+.rodape_p {
+    text-align: center;
+}

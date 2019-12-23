@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/estilo.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+    <title>Portif</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+
+            <a href="index.html" class="navbar-brand">
+                Portif
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barra-navegacao" aria-controls="barra-navegacao" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- INICIO DA BARRA DE NAVEGAÇÃO -->
+            <div class="collapse navbar-collapse float-left justify-content-end" id="barra-navegacao">
+                <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                    <li class="nav-item"><a onclick="suba()" class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a onclick="suba()" class="nav-link" href="#graduacao">Graduação</a></li>
+                    <li class="nav-item"><a onclick="suba()" class="nav-link" href="#projetos">Projetos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--FIM DA BARRA DE NAVEGAÇÃO-->
+    <!--INICIO DO CORPO DO SITE-->
+
+    <div class="container">
+
+        <div class="text-center">
+            <img class="formatada img-responsive mx-auto d-block" src="img/eu.png">
+            <h1>Paulo Ramon Figueiredo</h1>
+            <p class="h4">Illustrator, Wordpress, Bootstrap, HTML 5, CSS 3, JavaScript</p>
+        </div>
+    </div>
+
+
+
+    <section class="page-section bg-site" id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Sobre</h2>
+
+                    <p class="conteudo-texto">
+                        Olá, tudo bem? Me chamo Paulo Ramon Figueiredo, tenho 20 anos graduando em minha primeira faculdade. Atualmente estudo sobre programação com JavaScript e desenvolvimento front-end com bootstrap em sua versão 4.4, com a qual desenvolvi esse portfólio.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="page-section" id="graduacao">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Graduação</h2>
+
+                    <p class="conteudo-texto">
+                        Graduando em Gestão de Tecnologia da Informação pela Faculdade de Tecnologia de Tatuí (Fatec - Tatuí), atualmente em seu sexto e último semestre, com o trabalho de graduação com o foco em Marketing Digital.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="page-section bg-site" id="projetos">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Projetos</h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h5>Desenvolvimento da modalagem e engenharia de software.</h5>
+                            <p class="conteudo-texto">
+                                Modelar a criação de um aplicativo relacionado a área de mobilidade para a cidade de Tatuí com a orientação do Prof. Dr. Antônio Cesar Silva Sacco e criar sua engenharia de software com a orientação do Prof. Esp. Samuel Antonio Vieira.
+                            </p>
+                        </li>
+                        <li class="list-group-item">
+                            <h5>Mapas de perfil de competência</h5>
+                            <p class="conteudo-texto">
+                                Análise, desenvolvimento e aplicação de mapas de perfil de competência para os alunos da faculdade, orientado pelo Prof. Me. Paulo Rubens Rocha Albino.
+                            </p>
+                        </li>
+                        <li class="list-group-item">
+                            <h5>Curso de hardware</h5>
+                            <p class="conteudo-texto">
+                                Desenvolvimento de um material próprio e aplicação de um curso de hardware, localizado dentro da própria Fatec Tatuí para os alunos da escola EMEF Profa. Lígia Vieira de Camargo Del Fiol.
+                            </p>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="rodape">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <p class="rodape_p">&copy; 2019 Desenvolvido por: Paulo Ramon Figueiredo</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav d-flex justify-content-center">
+                        <li>
+                            <a target="_blank" class="item-rede-social" href="https://www.facebook.com/paulo.ramon.9847"><img src="img/facebook.png"></a>
+                        </li>
+
+                        <li>
+                            <a target="_blank" class="item-rede-social" href="https://www.instagram.com/ramones.015/"><img src="img/instagram.png"></a>
+                        </li>
+
+                        <li>
+                            <a target="_blank" class="item-rede-social" href="https://www.linkedin.com/in/paulo-ramon-figueiredo-37b418199/"><img src="img/linkedin.png"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/myjs.js"></script>
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    -->
+</body>
+
+</html>
